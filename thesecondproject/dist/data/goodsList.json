@@ -1,0 +1,23 @@
+
+define(["jquery"], function($){
+     //数据下载
+     function download(){
+        $.ajax({
+            type:"get",
+            url:"../data/goodsList2.json",
+            success:function(arr){
+
+            },
+            error:function(msg){
+                console.log(msg);
+            }
+        })
+     }
+
+     return {
+         download:download
+         
+     }
+
+
+} )

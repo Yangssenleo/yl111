@@ -45,6 +45,7 @@ require(["banner", "index", "data"], function(banner, index,data){
 
     //主页的数据
     data.download();
+    data.tabMenu();
 
 
 })

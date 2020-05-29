@@ -27,6 +27,7 @@ define(["jquery"], function($){
         })
 
         leftNavDownload();
+
     }
 
     //实现轮播图的轮播效果
@@ -142,11 +143,13 @@ define(["jquery"], function($){
 
     }
 
+    
 
 
     return {
         download:download,
-        banner:banner
+        banner:banner,
+        leftNavDownload:leftNavDownload,
 
     }
 
